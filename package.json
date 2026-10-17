@@ -1,0 +1,31 @@
+{
+  "name": "joindupe-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "media": "node scripts/prep-media.mjs",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4321"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "motion": "^12.43.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "marked": "^16.4.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.7"
+  }
+}
