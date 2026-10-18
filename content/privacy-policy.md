@@ -60,7 +60,7 @@ We are the "data controller" for your personal data. That means we decide how it
 | **App activity** | A simple log of actions, kept in our own database. Examples: onboarding steps viewed, paywall viewed or closed, plan chosen, character created, generation started, completed or failed, number of items downloaded, shared or deleted. These records hold event names, counts and IDs. They do **not** hold your photos or your prompts. Events before you have an account are not linked to you. |
 | **Push notification token** | If you allow notifications, a token that lets us tell your phone "your image is ready". |
 | **Crash and performance reports** | If the app crashes or runs slowly, a technical report is sent to Sentry. See section 3.3. |
-| **Product analytics** | Usage events (for example "paywall viewed" or "generation started") sent to PostHog, linked to a random app ID and, once you have an account, your account ID. No photos, prompts or email. You can switch this off. See section 3.6. |
+| **Product analytics** | Usage events (for example "paywall viewed" or "generation started") sent to PostHog, linked to a random app ID and, once you have an account, your account ID. No photos, prompts or email. Only if you allow it, and you can switch it off at any time. See section 3.6. |
 | **AI sharing permission** | Whether you accepted the AI sharing notice, which version, and when. |
 
 ### 3.3 What crash reports contain
@@ -96,13 +96,13 @@ You can switch any of these off in your phone's settings.
 
 ### 3.6 Product analytics (PostHog)
 
-To learn which parts of the app work and where people get stuck, the app sends usage events to **PostHog**, our product analytics service.
+To learn which parts of the app work and where people get stuck, the app can send usage events to **PostHog**, our product analytics service. **It only does this if you agree.** The first time you are in the app, it asks once: "Help improve Dupe? Share anonymous usage data", with **Allow** and **Not now**. Until you answer, and if you choose Not now, no usage events are sent or stored for sending.
 
 - **What is sent:** the name of an action (for example "onboarding step viewed", "paywall viewed", "purchase completed", "generation started", "result saved"), the name of the screen, and a few short technical details such as a plan or credit-pack product code, the type of media, a preset ID, a credit amount, how long a generation took, or a short error code. Basic device and app information is added: device model, operating system and app version, language and time zone.
 - **Who it is linked to:** a random ID that the app creates on your phone. Once you have an account, it is linked to your account ID (a random code, not your email). Your plan's product code, your phone's platform and the app version are stored with it. When you sign out or delete your account, the app starts a new random ID.
 - **What is never sent:** your email, your name, your photos or face, your prompts, captions, report notes or anything else you type. There are no screen recordings ("session replay") and no recording of your taps.
 - **IP addresses:** the app switches off location look-ups, and PostHog is set to discard IP addresses.
-- **Switching it off:** open the menu and turn off **Share anonymous usage data**. The app then stops sending usage events from that phone. Your choice is kept on the phone.
+- **Changing your mind:** open the menu and turn **Share anonymous usage data** on or off at any time. When it is off, the app sends no usage events from that phone. Your choice is kept on the phone.
 - **Who processes it:** PostHog Inc. (United States) processes this data for us, under a data processing agreement. See section 7 for how international transfers are protected.
 
 We do not use this data for advertising, we do not combine it with data from other companies, and we do not use it to track you across other apps or websites.
@@ -173,7 +173,7 @@ Under UK and EU data protection law we need a legal reason for each use.
 | To send account emails (such as sign-up confirmation and password reset) | Email address | Contract with you |
 | To tell you a result is ready | Push token | Consent (your notification permission) |
 | To understand how the app is used and improve it | App activity | Legitimate interests (improving our product) |
-| To measure and improve the app with product analytics (PostHog) | Usage events, random app ID, account ID, plan product code, device and app information | Legitimate interests (improving our product). You can switch it off in the app at any time |
+| To measure and improve the app with product analytics (PostHog) | Usage events, random app ID, account ID, plan product code, device and app information | Consent: asked once in the app, and only sent if you choose Allow. You can withdraw it in the app at any time |
 | To find and fix crashes | Crash and performance reports | Legitimate interests (a working, secure app) |
 | To prevent abuse and fraud, and enforce our Terms | Any of the above, as needed | Legitimate interests, and legal obligations |
 | To answer you | Support messages | Contract with you, or legitimate interests |
@@ -273,7 +273,7 @@ Wherever you live, you can ask us to:
 - **move** your data to you or another service in a common format;
 - **withdraw consent** you have given, including AI sharing permission.
 
-You can also **object** to uses based on our legitimate interests, such as app activity analytics. For product analytics you can do this yourself: turn off **Share anonymous usage data** in the app menu.
+You can also **object** to uses based on our legitimate interests, such as app activity analytics. Product analytics only run with your consent, and you can withdraw it yourself: turn off **Share anonymous usage data** in the app menu.
 
 To use any of these rights, email [support@joindupe.com](mailto:support@joindupe.com) from the address on your account. It is free. We reply within one month (45 days for California requests). We may need to check it is really you.
 
