@@ -10,6 +10,7 @@ export function Header() {
         <nav className="header-nav" aria-label="Main">
           <a href="#how">How it works</a>
           <a href="#presets">Presets</a>
+          <a href="#safety">Safety</a>
           <a href="#private">Privacy</a>
           <a href="#faq">FAQ</a>
         </nav>

@@ -88,8 +88,11 @@ export function Hero() {
           <motion.p {...enter(0.18)} className="mt-6 max-w-md text-[20px] leading-snug font-medium text-ink sm:text-[23px]">
             Scroll-stopping content, ready to post.
           </motion.p>
-          <motion.p {...enter(0.24)} className="mt-2 max-w-md text-[17px] leading-relaxed text-mute">
-            Add a few selfies, pick a trend, and see yourself in the shot.
+          <motion.p {...enter(0.24)} className="mt-2 max-w-md text-[17px] leading-relaxed text-ink/75">
+            Dupe is an iPhone app that turns a few selfies of yourself into social-media-style photos, carousels and short videos of you, in trending scenes and styles. Only of you, or someone who has said yes, and never nudity or intimate content.{' '}
+            <a href="#safety" className="font-semibold text-ink underline decoration-1 underline-offset-4 hover:decoration-2">
+              Safe by design
+            </a>
           </motion.p>
           <motion.div {...enter(0.32)} className="mt-9 flex flex-wrap items-center gap-x-5 gap-y-4">
             <ShimmerButton as="div" className="h-14 px-7 text-[16px] font-semibold" aria-label="Coming soon to the App Store">

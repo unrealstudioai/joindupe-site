@@ -63,13 +63,14 @@ If you add a photo of someone else with their permission, you are responsible fo
 
 ---
 
-## 5. What you must not make or do
+## 5. Acceptable use: what you must not make or do
 
-You must not use Dupe to create, or try to create:
+Dupe is for making content of yourself, or of another adult who has clearly given you permission. You must not use Dupe to create, or try to create:
 
 - **Sexual content.** No nudity, sexual or sexually explicit content. Never anything sexual involving a minor or anyone who looks like a minor.
-- **Intimate images of others.** No intimate, nude or sexual images of any real person.
-- **Deception or impersonation.** Nothing that pretends to be a real photo or video of a real event in order to mislead. No pretending to be another person, a named company or a brand. No fake evidence, fake endorsements, fake news or fake identity documents. No use for scams, fraud or catfishing.
+- **Non-consensual intimate imagery (NCII).** No intimate, nude or sexual images of any real person, and no "deepfake" or "undressing" content of anyone.
+- **Content of minors.** No content showing anyone under 18, or anyone who looks under 18.
+- **Deception or impersonation.** Nothing that pretends to be a real photo or video of a real event in order to mislead. No content of a real, identifiable person without their consent, and no pretending to be another person, a named company or a brand. No fake evidence, fake endorsements, fake news or fake identity documents. No use for scams, fraud or catfishing.
 - **Harm to others.** No harassment, bullying, threats, humiliation, or content that defames someone or invades their privacy.
 - **Hate or violence.** No content that promotes hatred or violence against people based on who they are. No gore or glorifying violence, terrorism or self-harm.
 - **Illegal content.** Nothing that breaks the law or helps anyone break it.

@@ -6,6 +6,7 @@ import { HowItWorks } from './sections/how-it-works';
 import { CameraRoll } from './sections/camera-roll';
 import { YourIdea } from './sections/your-idea';
 import { Private } from './sections/private';
+import { Safety } from './sections/safety';
 import { Faq } from './sections/faq';
 import { FinalCta } from './sections/final-cta';
 
@@ -18,6 +19,7 @@ export default function App() {
       <Header />
       <main id="main">
         <Hero />
+        <Safety />
         <PresetMarquee />
         <PhotoDump />
         <HowItWorks />

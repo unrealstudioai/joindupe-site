@@ -23,8 +23,8 @@ const QA: { q: string; a: React.ReactNode }[] = [
     ),
   },
   {
-    q: 'Can I make content of someone else?',
-    a: 'Only of an adult who has clearly given you permission. Never of anyone under 18, a celebrity or anyone who has not agreed.',
+    q: 'Can I make photos of someone else?',
+    a: 'Only of another adult who has clearly given you permission, and you confirm this every time you upload photos. Never of anyone under 18, a celebrity or anyone who has not agreed. Nude, sexual or intimate content of anyone is never allowed, and requests for it are refused.',
   },
   {
     q: 'Who is Dupe for?',
