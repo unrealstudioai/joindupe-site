@@ -1,6 +1,6 @@
 # Dupe Privacy Policy
 
-**Effective date:** 17 October 2026
+**Effective date:** 18 October 2026
 
 Dupe makes AI photos, carousels and short videos of a "character". Most characters are made from photos of the user's own face, so this policy explains, in plain English, what we collect, why, who it goes to and how you stay in control.
 
@@ -60,6 +60,7 @@ We are the "data controller" for your personal data. That means we decide how it
 | **App activity** | A simple log of actions, kept in our own database. Examples: onboarding steps viewed, paywall viewed or closed, plan chosen, character created, generation started, completed or failed, number of items downloaded, shared or deleted. These records hold event names, counts and IDs. They do **not** hold your photos or your prompts. Events before you have an account are not linked to you. |
 | **Push notification token** | If you allow notifications, a token that lets us tell your phone "your image is ready". |
 | **Crash and performance reports** | If the app crashes or runs slowly, a technical report is sent to Sentry. See section 3.3. |
+| **Product analytics** | Usage events (for example "paywall viewed" or "generation started") sent to PostHog, linked to a random app ID and, once you have an account, your account ID. No photos, prompts or email. You can switch this off. See section 3.6. |
 | **AI sharing permission** | Whether you accepted the AI sharing notice, which version, and when. |
 
 ### 3.3 What crash reports contain
@@ -92,6 +93,19 @@ One limit you should know: reports of low-level ("native") crashes are made by a
 - **Notifications:** to tell you when something you made is ready.
 
 You can switch any of these off in your phone's settings.
+
+### 3.6 Product analytics (PostHog)
+
+To learn which parts of the app work and where people get stuck, the app sends usage events to **PostHog**, our product analytics service.
+
+- **What is sent:** the name of an action (for example "onboarding step viewed", "paywall viewed", "purchase completed", "generation started", "result saved"), the name of the screen, and a few short technical details such as a plan or credit-pack product code, the type of media, a preset ID, a credit amount, how long a generation took, or a short error code. Basic device and app information is added: device model, operating system and app version, language and time zone.
+- **Who it is linked to:** a random ID that the app creates on your phone. Once you have an account, it is linked to your account ID (a random code, not your email). Your plan's product code, your phone's platform and the app version are stored with it. When you sign out or delete your account, the app starts a new random ID.
+- **What is never sent:** your email, your name, your photos or face, your prompts, captions, report notes or anything else you type. There are no screen recordings ("session replay") and no recording of your taps.
+- **IP addresses:** the app switches off location look-ups, and PostHog is set to discard IP addresses.
+- **Switching it off:** open the menu and turn off **Share anonymous usage data**. The app then stops sending usage events from that phone. Your choice is kept on the phone.
+- **Who processes it:** PostHog Inc. (United States) processes this data for us, under a data processing agreement. See section 7 for how international transfers are protected.
+
+We do not use this data for advertising, we do not combine it with data from other companies, and we do not use it to track you across other apps or websites.
 
 ---
 
@@ -159,6 +173,7 @@ Under UK and EU data protection law we need a legal reason for each use.
 | To send account emails (such as sign-up confirmation and password reset) | Email address | Contract with you |
 | To tell you a result is ready | Push token | Consent (your notification permission) |
 | To understand how the app is used and improve it | App activity | Legitimate interests (improving our product) |
+| To measure and improve the app with product analytics (PostHog) | Usage events, random app ID, account ID, plan product code, device and app information | Legitimate interests (improving our product). You can switch it off in the app at any time |
 | To find and fix crashes | Crash and performance reports | Legitimate interests (a working, secure app) |
 | To prevent abuse and fraud, and enforce our Terms | Any of the above, as needed | Legitimate interests, and legal obligations |
 | To answer you | Support messages | Contract with you, or legitimate interests |
@@ -186,6 +201,7 @@ We share data only with companies that help us run the app. We do not sell your 
 | **RevenueCat** | Manages subscriptions and purchases | A random account ID (not your email), purchase history, plan status, basic device and app information |
 | **Expo** (push notification service) | Sends push notifications to Apple | Your push token and the notification text (for example "Your image is ready"). We never put your name, photos or preset names in a notification. |
 | **Sentry** | Crash and performance reports | Filtered technical reports, without IP addresses (see section 3.3) |
+| **PostHog** (PostHog Inc., United States) | Product analytics | Usage events, a random app ID, your account ID, your plan's product code, and basic device and app information. No email, photos or prompts, and IP addresses are discarded (see section 3.6) |
 | **Resend** | Sends account emails, such as sign-up confirmation and password reset. Emails are sent from Ireland (EU); Resend's main processing is in the United States | Your email address and the email content |
 
 We may also share data:
@@ -198,7 +214,7 @@ We may also share data:
 
 ## 7. Where your data is processed
 
-We are based in the United Kingdom. Our main database and file storage are hosted by Supabase in the United States (Amazon Web Services, US East). Account emails are sent by Resend from Ireland (EU), and Resend processes data mainly in the United States. Our other providers process data in other countries, including the United States.
+We are based in the United Kingdom. Our main database and file storage are hosted by Supabase in the United States (Amazon Web Services, US East). Account emails are sent by Resend from Ireland (EU), and Resend processes data mainly in the United States. Product analytics are stored by PostHog in the United States (PostHog US Cloud). Our other providers process data in other countries, including the United States.
 
 When your data leaves the UK or the European Economic Area, we rely on legal safeguards such as UK and EU adequacy decisions (including the UK-US data bridge and the EU-US Data Privacy Framework where the provider is certified), the UK International Data Transfer Agreement or Addendum, and the EU Standard Contractual Clauses. You can ask us for a copy at [support@joindupe.com](mailto:support@joindupe.com).
 
@@ -217,6 +233,7 @@ When your data leaves the UK or the European Economic Area, we rely on legal saf
 | Reports you send | Until your account is permanently deleted. A report stays even if the reported result is deleted, so we can deal with it. |
 | App activity not linked to any account | Up to 2 years. It cannot be connected to you. |
 | Crash reports | Up to 90 days |
+| Product analytics events (PostHog) | Kept under PostHog's standard retention for our plan, then deleted. Once your account is permanently erased, the events left in PostHog carry only a random account ID that can no longer be connected to you. Ask us and we will delete them sooner. |
 | Purchase and transaction records | As long as tax and accounting law requires (in the UK, normally 6 years). Most of these are held by Apple and RevenueCat. |
 | Support emails | Up to 2 years after the conversation ends |
 | Backups | Deleted data can remain in our daily database backups for up to 7 days before it is overwritten |
@@ -256,7 +273,7 @@ Wherever you live, you can ask us to:
 - **move** your data to you or another service in a common format;
 - **withdraw consent** you have given, including AI sharing permission.
 
-You can also **object** to uses based on our legitimate interests, such as app activity analytics.
+You can also **object** to uses based on our legitimate interests, such as app activity analytics. For product analytics you can do this yourself: turn off **Share anonymous usage data** in the app menu.
 
 To use any of these rights, email [support@joindupe.com](mailto:support@joindupe.com) from the address on your account. It is free. We reply within one month (45 days for California requests). We may need to check it is really you.
 
@@ -289,7 +306,8 @@ To make the app fast and usable without a connection, the app keeps some data on
 
 - your sign-in session, in your phone's secure storage;
 - a cache of your recent gallery items, your characters, presets and your credit balance, so you can browse when offline;
-- photos you picked during setup, until setup finishes.
+- photos you picked during setup, until setup finishes;
+- your choice for **Share anonymous usage data**, the random analytics ID and any usage events waiting to be sent to PostHog.
 
 This cached data is tied to your account. If someone else signs in on the same phone, the app does not show them the previous account's private data.
 
