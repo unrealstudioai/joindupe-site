@@ -233,7 +233,7 @@ When your data leaves the UK or the European Economic Area, we rely on legal saf
 | Reports you send | Until your account is permanently deleted. A report stays even if the reported result is deleted, so we can deal with it. |
 | App activity not linked to any account | Up to 2 years. It cannot be connected to you. |
 | Crash reports | Up to 90 days |
-| Product analytics events (PostHog) | Kept under PostHog's standard retention for our plan, then deleted. Once your account is permanently erased, the events left in PostHog carry only a random account ID that can no longer be connected to you. Ask us and we will delete them sooner. |
+| Product analytics events (PostHog) | Kept under PostHog's standard retention for our plan, then deleted. When your account is permanently erased, we also ask PostHog to delete your analytics profile and the usage events linked to it (PostHog completes this in the background). Ask us and we will delete them sooner. |
 | Purchase and transaction records | As long as tax and accounting law requires (in the UK, normally 6 years). Most of these are held by Apple and RevenueCat. |
 | Support emails | Up to 2 years after the conversation ends |
 | Backups | Deleted data can remain in our daily database backups for up to 7 days before it is overwritten |
@@ -250,7 +250,7 @@ What happens:
 
 1. **Straight away:** your account is switched off. Nobody can sign in to it and nothing new can be made. If you signed in with Apple, we ask Apple to remove Dupe's access to your Apple ID.
 2. **For 14 days:** your data is kept, but locked. If you deleted your account by mistake, email [support@joindupe.com](mailto:support@joindupe.com) within this time and we can restore it.
-3. **After 14 days:** everything is permanently erased in our daily clean-up. This includes your photos, characters, outfit, product and Recreate photos, generated media, captions, albums, credits, push tokens, app activity and your sign-in record. We also ask RevenueCat to delete its record of you. This cannot be undone.
+3. **After 14 days:** everything is permanently erased in our daily clean-up. This includes your photos, characters, outfit, product and Recreate photos, generated media, captions, albums, credits, push tokens, app activity and your sign-in record. We also ask RevenueCat to delete its record of you, and PostHog to delete your analytics profile and usage events. This cannot be undone.
 
 **Want it gone sooner?** Email [support@joindupe.com](mailto:support@joindupe.com) from the address on your account and ask for immediate erasure.
 
