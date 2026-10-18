@@ -81,9 +81,9 @@ If your credits have not come back after an hour, email us with the rough time o
 
 Returned credits go back where they came from. Credits taken from a pack go back into that pack. If they came from a plan period that has since ended, they come back as a new pack, which never expires. You never lose returned credits.
 
-### Can I get credits back for a result I did not like?
+### Do I get credits back if I don't like a result?
 
-No, sorry. AI results vary, and a result you do not love is not a failed generation. See "Getting better results" below.
+If a generation fails, your credits come back automatically. AI results can vary, and some may look a little off. A result you don't love isn't refunded, but you can always try another take. Tip: clear, well-lit selfies give the best likeness. See "Getting better results" below.
 
 ---
 
