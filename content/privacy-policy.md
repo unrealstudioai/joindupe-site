@@ -1,6 +1,6 @@
 # Dupe Privacy Policy
 
-**Effective date:** 18 October 2026
+**Effective date:** 20 October 2026
 
 Dupe makes AI photos, carousels and short videos of a "character". Most characters are made from photos of the user's own face, so this policy explains, in plain English, what we collect, why, who it goes to and how you stay in control.
 
@@ -23,7 +23,7 @@ We are the "data controller" for your personal data. That means we decide how it
 
 - Dupe is for adults (18+).
 - You give us photos. We use them only to make your characters and your results, and to check them for safety.
-- To do that, your photos and prompts are sent to the AI companies that run the models for us: **WaveSpeed AI** (image and video generation, using models from OpenAI, Alibaba and ByteDance) and **Google** (Gemini, for photo checks, prompt checks and prompt writing).
+- To do that, your photos and prompts are sent to the AI providers that work for us: **WaveSpeed AI** (which runs the AI image and video models we use) and **Google** (Gemini, for photo checks, prompt checks and prompt writing).
 - **We do not use your photos, prompts or results to train AI models.** We do not sell your data. We do not show ads. We do not track you across other apps or websites.
 - Nothing is uploaded or sent to AI until you agree on the AI sharing screen. You can withdraw that in the app.
 - Your results are private to your account. There is no public feed.
@@ -102,7 +102,7 @@ To learn which parts of the app work and where people get stuck, the app can sen
 - **Who it is linked to:** a random ID that the app creates on your phone. Once you have an account, it is linked to your account ID (a random code, not your email). Your plan's product code, your phone's platform and the app version are stored with it. When you sign out or delete your account, the app starts a new random ID.
 - **What is never sent:** your email, your name, your photos or face, your prompts, captions, report notes or anything else you type. There are no screen recordings ("session replay") and no recording of your taps.
 - **IP addresses:** the app switches off location look-ups, and PostHog is set to discard IP addresses.
-- **Changing your mind:** open the menu and turn **Share anonymous usage data** on or off at any time. When it is off, the app sends no usage events from that phone. Your choice is kept on the phone.
+- **Changing your mind:** open the menu, tap **Privacy** and turn **Share anonymous usage data** on or off at any time. When it is off, the app sends no usage events from that phone. Your choice is kept on the phone.
 - **Who processes it:** PostHog Inc. (United States) processes this data for us, under a data processing agreement. See section 7 for how international transfers are protected.
 
 We do not use this data for advertising, we do not combine it with data from other companies, and we do not use it to track you across other apps or websites.
@@ -139,7 +139,7 @@ To keep Dupe safe, we use automatic checks:
 - **Photos you upload** (character photos, outfit and product photos, Recreate photos) are checked by AI for sexual content, sexual content involving minors, violence and hate. Character photos are also checked for harassment, and must show one clear, real human face (not a drawing). A photo that fails is rejected and deleted.
 - **Prompts you type** (your own ideas and edit instructions) are checked by AI **before** any credits are taken. A prompt is blocked if it asks for sexual content, anything sexual involving a minor, intimate images of another real person, hate or harassment, graphic violence, illegal activity, or pretending to be a named real person or brand. The app tells you why it was blocked.
 - **Repeat blocked prompts.** After 5 blocked prompts in 24 hours we show a warning. After 10 in 7 days, typed prompts are paused for 24 hours (presets keep working). A prompt blocked for sexual content involving a minor suspends the account straight away. Nothing is deleted automatically. You can contact us if you think we got it wrong.
-- **The AI models' own filters.** WaveSpeed and the model makers also run their own safety filters. If one blocks a result, the generation fails and your credits are returned.
+- **The AI models' own filters.** WaveSpeed and the AI models it runs also have their own safety filters. If one blocks a result, the generation fails and your credits are returned.
 - **Reports.** You can report any result from the full-screen view. We read reports and act on them.
 
 These checks are automated and make mistakes. If you think a photo or prompt was blocked wrongly, or your account was paused or suspended wrongly, email [support@joindupe.com](mailto:support@joindupe.com) and a person will look at it.
@@ -148,7 +148,7 @@ These checks are automated and make mistakes. If you think a photo or prompt was
 
 Before the first upload or AI request, the app shows an AI sharing notice and asks you to agree. Your answer is saved on our server against your account, so it applies on every device, and our server refuses uploads and AI requests without it.
 
-You can withdraw permission at any time from the app menu: **AI Photo Sharing**. When you do:
+You can withdraw permission at any time: open the app menu, tap **Privacy** and turn off **AI photo processing**. When you do:
 
 - new uploads and new AI requests stop, on all your devices;
 - you can still open the app and see your gallery;
@@ -193,8 +193,7 @@ We share data only with companies that help us run the app. We do not sell your 
 | Company | What they do for us | What they receive |
 |---|---|---|
 | **Supabase** | Database, private file storage, sign-in, server functions | Everything stored in your account |
-| **WaveSpeed AI** | Runs the AI models that make your photos and videos | Your character's reference picture, outfit, product and Recreate photos, the instructions for each shot (including your typed prompt, rewritten), character descriptions, and the results |
-| **AI model makers used through WaveSpeed AI**: OpenAI (GPT Image, for photos), Alibaba (Wan, for videos) and ByteDance (Seedance, for videos) | Provide the underlying image and video models | The pictures and text needed for that request |
+| **WaveSpeed AI** | Runs the AI image and video models we use to make your photos and videos | Your character's reference picture, outfit, product and Recreate photos, the instructions for each shot (including your typed prompt, rewritten), character descriptions, and the results |
 | **Google** (Gemini API) | Checks photos and prompts, writes the character description, and turns typed ideas into detailed shot instructions | Your photos (for the checks and the description), your typed prompts and edit instructions |
 | **Apple** (App Store, Sign in with Apple, push notifications) | Payments, sign-in and delivering notifications on iPhone | Handled between you and Apple; notification text |
 | **Google** (Google Sign-In) | Sign-in, if you choose it | Handled between you and Google |
@@ -273,7 +272,7 @@ Wherever you live, you can ask us to:
 - **move** your data to you or another service in a common format;
 - **withdraw consent** you have given, including AI sharing permission.
 
-You can also **object** to uses based on our legitimate interests, such as app activity analytics. Product analytics only run with your consent, and you can withdraw it yourself: turn off **Share anonymous usage data** in the app menu.
+You can also **object** to uses based on our legitimate interests, such as app activity analytics. Product analytics only run with your consent, and you can withdraw it yourself: turn off **Share anonymous usage data** on the **Privacy** page in the app menu.
 
 To use any of these rights, email [support@joindupe.com](mailto:support@joindupe.com) from the address on your account. It is free. We reply within one month (45 days for California requests). We may need to check it is really you.
 
