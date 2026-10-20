@@ -23,7 +23,7 @@ We are the "data controller" for your personal data. That means we decide how it
 
 - Dupe is for adults (18+).
 - You give us photos. We use them only to make your characters and your results, and to check them for safety.
-- To do that, your photos and prompts are sent to the AI providers that work for us: **WaveSpeed AI** (which runs the AI image and video models we use) and **Google** (Gemini, for photo checks, prompt checks and prompt writing).
+- To do that, your photos and prompts are processed by our AI providers, **Google** (Gemini) and **WaveSpeed AI**, to create your images and videos and to keep the app safe.
 - **We do not use your photos, prompts or results to train AI models.** We do not sell your data. We do not show ads. We do not track you across other apps or websites.
 - Nothing is uploaded or sent to AI until you agree on the AI sharing screen. You can withdraw that in the app.
 - Your results are private to your account. There is no public feed.
@@ -117,12 +117,12 @@ This is the most important part of this policy.
 
 1. You pick 3 photos and tick the two boxes (they are of you or you have permission; you are 18 or over). Nothing is uploaded until you have accepted the AI sharing notice and have an account.
 2. The photos are uploaded to our private storage (hosted by Supabase).
-3. The photos are sent to **Google's Gemini** AI, which checks that each one shows one clear, real face and nothing unsafe (see 4.3). A photo that fails is rejected and deleted from our storage.
-4. Gemini writes a short description of the character's appearance, which we store with the character.
-5. We join your photos into one reference picture. Each time you create something, that reference picture is sent to the image or video model at **WaveSpeed AI** together with the instructions for the shot, plus any outfit, product or Recreate photo you added.
+3. Our AI providers check that each photo shows one clear, real face and nothing unsafe (see 4.3). A photo that fails is rejected and deleted from our storage.
+4. AI writes a short description of the character's appearance, which we store with the character.
+5. We join your photos into one reference picture. Each time you create something, that reference picture is sent to our AI providers together with the instructions for the shot, plus any outfit, product or Recreate photo you added.
 6. The finished result is copied into our private storage and appears in your gallery. Only you can see it.
 
-Outfit, product and Recreate photos go through a similar Gemini check before they can be used. A face in those photos is fine (for example someone wearing the outfit).
+Outfit, product and Recreate photos go through a similar check before they can be used. A face in those photos is fine (for example someone wearing the outfit).
 
 If you **invent** a character in Character Studio, no photo of you is used. The character is made from the traits you choose.
 
@@ -193,8 +193,8 @@ We share data only with companies that help us run the app. We do not sell your 
 | Company | What they do for us | What they receive |
 |---|---|---|
 | **Supabase** | Database, private file storage, sign-in, server functions | Everything stored in your account |
-| **WaveSpeed AI** | Runs the AI image and video models we use to make your photos and videos | Your character's reference picture, outfit, product and Recreate photos, the instructions for each shot (including your typed prompt, rewritten), character descriptions, and the results |
-| **Google** (Gemini API) | Checks photos and prompts, writes the character description, and turns typed ideas into detailed shot instructions | Your photos (for the checks and the description), your typed prompts and edit instructions |
+| **Google** (Gemini API) | AI provider: processes your photos and prompts to create your images and videos and to keep the app safe | Your photos (including faces), reference, outfit, product and Recreate photos, your prompts and edit instructions, character descriptions, and the results |
+| **WaveSpeed AI** | AI provider: processes your photos and prompts to create your images and videos and to keep the app safe | Your photos (including faces), reference, outfit, product and Recreate photos, your prompts and edit instructions, character descriptions, and the results |
 | **Apple** (App Store, Sign in with Apple, push notifications) | Payments, sign-in and delivering notifications on iPhone | Handled between you and Apple; notification text |
 | **Google** (Google Sign-In) | Sign-in, if you choose it | Handled between you and Google |
 | **RevenueCat** | Manages subscriptions and purchases | A random account ID (not your email), purchase history, plan status, basic device and app information |
