@@ -43,7 +43,7 @@
 <ul>
 <li>Dupe is for adults (18+).</li>
 <li>You give us photos. We use them only to make your characters and your results, and to check them for safety.</li>
-<li>To do that, your photos and prompts are sent to the AI providers that work for us: <strong>WaveSpeed AI</strong> (which runs the AI image and video models we use) and <strong>Google</strong> (Gemini, for photo checks, prompt checks and prompt writing).</li>
+<li>To do that, your photos and prompts are processed by our AI providers, <strong>Google</strong> (Gemini) and <strong>WaveSpeed AI</strong>, to create your images and videos and to keep the app safe.</li>
 <li><strong>We do not use your photos, prompts or results to train AI models.</strong> We do not sell your data. We do not show ads. We do not track you across other apps or websites.</li>
 <li>Nothing is uploaded or sent to AI until you agree on the AI sharing screen. You can withdraw that in the app.</li>
 <li>Your results are private to your account. There is no public feed.</li>
@@ -194,12 +194,12 @@
 <ol>
 <li>You pick 3 photos and tick the two boxes (they are of you or you have permission; you are 18 or over). Nothing is uploaded until you have accepted the AI sharing notice and have an account.</li>
 <li>The photos are uploaded to our private storage (hosted by Supabase).</li>
-<li>The photos are sent to <strong>Google&#39;s Gemini</strong> AI, which checks that each one shows one clear, real face and nothing unsafe (see 4.3). A photo that fails is rejected and deleted from our storage.</li>
-<li>Gemini writes a short description of the character&#39;s appearance, which we store with the character.</li>
-<li>We join your photos into one reference picture. Each time you create something, that reference picture is sent to the image or video model at <strong>WaveSpeed AI</strong> together with the instructions for the shot, plus any outfit, product or Recreate photo you added.</li>
+<li>Our AI providers check that each photo shows one clear, real face and nothing unsafe (see 4.3). A photo that fails is rejected and deleted from our storage.</li>
+<li>AI writes a short description of the character&#39;s appearance, which we store with the character.</li>
+<li>We join your photos into one reference picture. Each time you create something, that reference picture is sent to our AI providers together with the instructions for the shot, plus any outfit, product or Recreate photo you added.</li>
 <li>The finished result is copied into our private storage and appears in your gallery. Only you can see it.</li>
 </ol>
-<p>Outfit, product and Recreate photos go through a similar Gemini check before they can be used. A face in those photos is fine (for example someone wearing the outfit).</p>
+<p>Outfit, product and Recreate photos go through a similar check before they can be used. A face in those photos is fine (for example someone wearing the outfit).</p>
 <p>If you <strong>invent</strong> a character in Character Studio, no photo of you is used. The character is made from the traits you choose.</p>
 <h3 id="4-2-what-we-do-not-do">4.2 What we do not do</h3>
 <ul>
@@ -324,14 +324,14 @@
 <td>Everything stored in your account</td>
 </tr>
 <tr>
-<td><strong>WaveSpeed AI</strong></td>
-<td>Runs the AI image and video models we use to make your photos and videos</td>
-<td>Your character&#39;s reference picture, outfit, product and Recreate photos, the instructions for each shot (including your typed prompt, rewritten), character descriptions, and the results</td>
+<td><strong>Google</strong> (Gemini API)</td>
+<td>AI provider: processes your photos and prompts to create your images and videos and to keep the app safe</td>
+<td>Your photos (including faces), reference, outfit, product and Recreate photos, your prompts and edit instructions, character descriptions, and the results</td>
 </tr>
 <tr>
-<td><strong>Google</strong> (Gemini API)</td>
-<td>Checks photos and prompts, writes the character description, and turns typed ideas into detailed shot instructions</td>
-<td>Your photos (for the checks and the description), your typed prompts and edit instructions</td>
+<td><strong>WaveSpeed AI</strong></td>
+<td>AI provider: processes your photos and prompts to create your images and videos and to keep the app safe</td>
+<td>Your photos (including faces), reference, outfit, product and Recreate photos, your prompts and edit instructions, character descriptions, and the results</td>
 </tr>
 <tr>
 <td><strong>Apple</strong> (App Store, Sign in with Apple, push notifications)</td>
