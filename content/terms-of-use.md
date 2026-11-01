@@ -10,7 +10,7 @@ Our [Privacy Policy](https://joindupe.com/privacy) explains how we handle your d
 
 ## 1. Who we are
 
-Dupe is provided by **David-Christian Green, trading as Unreal Studio**, a sole trader based in the United Kingdom, at Apartment 55, 2 Langley Walk, Birmingham, B15 2EN, United Kingdom ("we", "us").
+Dupe is provided by **David-Christian Green, trading as Unreal Studio**, a sole trader based in the United Kingdom, at Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom ("we", "us").
 
 Contact: [support@joindupe.com](mailto:support@joindupe.com) · [joindupe.com](https://joindupe.com)
 
@@ -284,6 +284,6 @@ We would much rather sort things out directly. Please email [support@joindupe.co
 ## 19. Contact
 
 **David-Christian Green, trading as Unreal Studio**
-Apartment 55, 2 Langley Walk, Birmingham, B15 2EN, United Kingdom
+Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom
 Email: [support@joindupe.com](mailto:support@joindupe.com)
 Website: [https://joindupe.com](https://joindupe.com)

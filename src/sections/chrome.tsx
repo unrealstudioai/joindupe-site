@@ -38,7 +38,7 @@ export function Footer() {
         </nav>
       </div>
       <div className="wrap footer-legal">
-        <p>© 2026 David-Christian Green trading as Unreal Studio · Apartment 55, 2 Langley Walk, Birmingham, B15 2EN, United Kingdom</p>
+        <p>© 2026 David-Christian Green trading as Unreal Studio · Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom</p>
       </div>
     </footer>
   );
