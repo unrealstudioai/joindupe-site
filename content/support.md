@@ -292,4 +292,4 @@ You can browse your Gallery, characters and presets that have already loaded. Cr
 - [Privacy Policy](https://joindupe.com/privacy)
 - [Terms of Use](https://joindupe.com/terms)
 
-Dupe is provided by David-Christian Green, trading as Unreal Studio, Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom.
+Dupe is provided by Unreal Studio, Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom.

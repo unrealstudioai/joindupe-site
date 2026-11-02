@@ -10,7 +10,7 @@ If anything here is unclear, email us at [support@joindupe.com](mailto:support@j
 
 ## 1. Who we are
 
-Dupe is run by **David-Christian Green, trading as Unreal Studio**, a sole trader based in the United Kingdom, at Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom ("we", "us").
+Dupe is run by **Unreal Studio**, based in the United Kingdom, at Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom ("we", "us").
 
 We are the "data controller" for your personal data. That means we decide how it is used and we are responsible for it.
 
@@ -345,7 +345,7 @@ We may update this policy as the app changes. We will change the effective date 
 
 ## 15. Contact
 
-**David-Christian Green, trading as Unreal Studio**
+**Unreal Studio**
 Lytchett House, 13 Freeland Park, Wareham Road, Poole, Dorset, BH16 6FA, United Kingdom
 Email: [support@joindupe.com](mailto:support@joindupe.com)
 Website: [https://joindupe.com](https://joindupe.com)
